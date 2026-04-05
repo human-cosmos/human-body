@@ -18,37 +18,37 @@ features:
     title: 意识的深层结构
     details: 大脑不是意识本身，而是接收器。觉知、念头、大脑三层结构如何协同运作？
     link: /core/intro
-    linkText: 深入了解 →
+    linkText: 深入了解
 
   - icon: ⚡
     title: 能量与经络
     details: 气是筋膜网络中可测量的压电效应与液压波传导。经络的解剖学真相正在被验证。
     link: /body/intro
-    linkText: 深入了解 →
+    linkText: 深入了解
 
   - icon: 🔬
     title: 念头与细胞
     details: 每个念头都触发皮质醇释放、自由基攻击和端粒磨损——可量化的细胞级损伤。
     link: /core/karma
-    linkText: 深入了解 →
+    linkText: 深入了解
 
   - icon: 🌊
     title: 筋膜网络
     details: 遍布全身的结缔组织网络，储存情绪、传导能量、维持形态。理顺筋膜即清理阻碍。
     link: /body/fascia
-    linkText: 深入了解 →
+    linkText: 深入了解
 
   - icon: 💎
     title: 德与业的物理
     details: 高频有序的能量模板与低频混沌的能量结——可转化的生物电磁场状态。
     link: /core/karma
-    linkText: 深入了解 →
+    linkText: 深入了解
 
   - icon: 🛠️
     title: 实践指南
     details: 从呼吸调频到筋膜保养，从注意力训练到能量场净化——每一步可验证。
     link: /practice/intro
-    linkText: 深入了解 →
+    linkText: 深入了解
 ---
 
 <div class="video-showcase">
