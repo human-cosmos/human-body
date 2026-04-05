@@ -1,9 +1,16 @@
 <script setup lang="ts">
-import { withBase, useRouter } from "vitepress";
+import { withBase, useRouter, useData } from "vitepress";
+import { computed } from "vue";
 
 const router = useRouter();
+const { lang } = useData();
 
 const ns = "error-page";
+
+const isEn = computed(() => lang.value === "en-US" || lang.value === "en");
+const message = computed(() => isEn.value ? "Sorry, the page you visited does not exist 🤷‍♂️🤷‍♀️" : "抱歉，您访问的页面不存在~🤷‍♂️🤷‍♀️");
+const btnText = computed(() => isEn.value ? "Back Home" : "返回首页");
+const homeLink = computed(() => isEn.value ? "/en/" : "/");
 </script>
 
 <template>
@@ -11,8 +18,8 @@ const ns = "error-page";
     <img :src="withBase('/404.png')" :class="`${ns}__img`" alt="404" />
     <div :class="[`${ns}__detail`, 'flx-column']">
       <h2>404</h2>
-      <h4>抱歉，您访问的页面不存在~🤷‍♂️🤷‍♀️</h4>
-      <button @click="router.go('/')">返回首页</button>
+      <h4>{{ message }}</h4>
+      <button @click="router.go(homeLink)">{{ btnText }}</button>
     </div>
   </div>
 </template>

@@ -1,12 +1,20 @@
 <script setup lang="ts" name="TeekLayoutProvider">
-import Teek from "vitepress-theme-teek";
+import Teek, { zhCn, en } from "vitepress-theme-teek";
 import ContributeChart from "./ContributeChart.vue";
 import NotFound from "./404.vue";
+import { useData } from "vitepress";
+import { computed } from "vue";
 
+const { lang } = useData();
+
+const locale = computed(() => {
+  if (lang.value === "en-US" || lang.value === "en") return en;
+  return zhCn;
+});
 </script>
 
 <template>
-  <Teek.Layout>
+  <Teek.Layout :locale="locale">
     <template #teek-archives-top-before>
       <ContributeChart />
     </template>
