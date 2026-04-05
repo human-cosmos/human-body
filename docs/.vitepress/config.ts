@@ -1,10 +1,11 @@
 import { defineConfig } from "vitepress";
+import { withMermaid } from "vitepress-plugin-mermaid";
 import { teekConfig, teekConfigEn } from "./teekConfig";
 
 const description =
   "HUMAN_OS — 用量子生物学、神经科学与筋膜解剖学的语言，翻译东方生命智慧。不玄学，只讲科学。";
 
-export default defineConfig({
+export default withMermaid(defineConfig({
   extends: teekConfig,
   title: "HUMAN_OS",
   description: description,
@@ -139,4 +140,4 @@ export default defineConfig({
     socialLinks: [{ icon: "github", link: "https://github.com/" }],
     search: { provider: "local" },
   },
-});
+}));
