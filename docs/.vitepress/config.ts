@@ -3,7 +3,7 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 import { teekConfig, teekConfigEn } from "./teekConfig";
 
 const description =
-  "HUMAN_BODY — 用量子生物学、神经科学与筋膜解剖学的语言，翻译东方生命智慧。不玄学，只讲科学。";
+  "人体宇宙 — 用量子生物学、神经科学与筋膜解剖学的语言，翻译东方生命智慧。不玄学，只讲科学。";
 
 export default withMermaid(defineConfig({
   vite: {
@@ -22,21 +22,20 @@ export default withMermaid(defineConfig({
     },
   },
   extends: teekConfig,
-  title: "HUMAN_BODY",
+  title: "人体宇宙",
   description: description,
   cleanUrls: false,
   lastUpdated: true,
   lang: "zh-CN",
   head: [
-    ["link", { rel: "icon", type: "image/svg+xml", href: "/teek-logo-mini.svg" }],
-    ["link", { rel: "icon", type: "image/png", href: "/teek-logo-mini.png" }],
+    ["link", { rel: "icon", type: "image/jpeg", href: "/logo.jpg" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:locale", content: "zh-CN" }],
-    ["meta", { property: "og:title", content: "HUMAN_BODY | 重新认识你的身体" }],
-    ["meta", { property: "og:site_name", content: "HUMAN_BODY" }],
+    ["meta", { property: "og:title", content: "人体宇宙 | 重新认识你的身体" }],
+    ["meta", { property: "og:site_name", content: "人体宇宙" }],
     ["meta", { property: "og:description", content: description }],
     ["meta", { name: "description", content: description }],
-    ["meta", { name: "author", content: "HUMAN_BODY" }],
+    ["meta", { name: "author", content: "人体宇宙" }],
     ["meta", { name: "keywords", content: "量子生物学,意识,冥想,筋膜,经络,觉知,人体潜能,东方智慧,神经科学" }],
   ],
   rewrites: {
@@ -151,7 +150,7 @@ export default withMermaid(defineConfig({
     },
   },
   themeConfig: {
-    logo: "/teek-logo-mini.svg",
+    logo: "/logo.jpg",
     socialLinks: [{ icon: "github", link: "https://github.com/" }],
     search: { provider: "local" },
   },

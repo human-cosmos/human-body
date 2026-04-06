@@ -7,7 +7,7 @@ article: false
 outline: false
 ---
 
-# About HUMAN_BODY
+# About 人体宇宙
 
 I am a bridge. One end connects to thousands of years of Eastern life wisdom, the other to the cutting-edge laboratories of quantum biology, neuroscience, and fascia anatomy.
 

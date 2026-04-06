@@ -5,14 +5,14 @@ export const teekConfig = defineTeekConfig({
   teekHome: false,
   vpHome: true,
   sidebarTrigger: true,
-  author: { name: "HUMAN_BODY", link: "https://github.com/" },
+  author: { name: "人体宇宙", link: "https://github.com/" },
   footerInfo: {
     theme: {
       name: `Theme By Teek@${version}`,
     },
     copyright: {
       createYear: 2025,
-      suffix: "HUMAN_BODY",
+      suffix: "人体宇宙",
     },
   },
   codeBlock: {
@@ -47,7 +47,7 @@ export const teekConfigEn = defineTeekConfig({
   teekHome: false,
   vpHome: true,
   sidebarTrigger: true,
-  author: { name: "HUMAN_BODY", link: "https://github.com/" },
+  author: { name: "人体宇宙", link: "https://github.com/" },
   codeBlock: {
     copiedDone: (TkMessage) => TkMessage.success("Copied!"),
   },

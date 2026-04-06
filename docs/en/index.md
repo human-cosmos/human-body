@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "HUMAN_BODY"
+  name: "Human Cosmos"
   text: "Rediscover Your Body"
   tagline: "Decoding ancient Eastern wisdom through quantum biology, neuroscience, and fascia anatomy. No mysticism, just science."
   actions:
@@ -53,9 +53,9 @@ features:
 
 <div class="video-showcase">
   <h2 class="video-showcase__title">🎬 Video Guide</h2>
-  <p class="video-showcase__desc">Quickly understand the core concepts of HUMAN_BODY through video</p>
+  <p class="video-showcase__desc">Quickly understand the core concepts of 人体宇宙 through video</p>
   <div class="video-showcase__grid">
-    <div class="video-showcase__card" @mouseenter="e => { const v = e.currentTarget.querySelector('video'); v.muted = true; v.play(); }" @mouseleave="e => { const v = e.currentTarget.querySelector('video'); v.pause(); v.currentTime = 0; }">
+    <div class="video-showcase__card" @mouseenter="e => { const v = e.currentTarget.querySelector('video'); v.muted = true; v.play().catch(() => {}); }" @mouseleave="e => { const v = e.currentTarget.querySelector('video'); v.pause(); v.currentTime = 0; }">
       <div class="video-showcase__wrapper">
         <video muted preload="metadata" playsinline loop poster="/media/image1.jpg">
           <source src="/media/video1.mp4" type="video/mp4">
@@ -68,7 +68,7 @@ features:
         </div>
       </div>
     </div>
-    <div class="video-showcase__card" @mouseenter="e => { const v = e.currentTarget.querySelector('video'); v.muted = true; v.play(); }" @mouseleave="e => { const v = e.currentTarget.querySelector('video'); v.pause(); v.currentTime = 0; }">
+    <div class="video-showcase__card" @mouseenter="e => { const v = e.currentTarget.querySelector('video'); v.muted = true; v.play().catch(() => {}); }" @mouseleave="e => { const v = e.currentTarget.querySelector('video'); v.pause(); v.currentTime = 0; }">
       <div class="video-showcase__wrapper">
         <video muted preload="metadata" playsinline loop poster="/media/image1.jpg">
           <source src="/media/video2.mp4" type="video/mp4">
