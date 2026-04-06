@@ -6,6 +6,21 @@ const description =
   "HUMAN_BODY — 用量子生物学、神经科学与筋膜解剖学的语言，翻译东方生命智慧。不玄学，只讲科学。";
 
 export default withMermaid(defineConfig({
+  vite: {
+    optimizeDeps: {
+      include: [
+        "dayjs",
+        "vitepress-theme-teek > dayjs",
+        "@braintree/sanitize-url",
+        "mermaid",
+        "cytoscape",
+        "cytoscape-cose-bilkent",
+      ],
+    },
+    ssr: {
+      noExternal: ["vitepress-theme-teek"],
+    },
+  },
   extends: teekConfig,
   title: "HUMAN_BODY",
   description: description,
