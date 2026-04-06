@@ -10,8 +10,8 @@ hero:
       text: 开始探索
       link: /core/intro
     - theme: alt
-      text: GitHub
-      link: https://github.com/
+      text: 项目介绍
+      link: /readme
 
 features:
   - icon: 🧬
