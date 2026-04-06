@@ -3,11 +3,11 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 import { teekConfig, teekConfigEn } from "./teekConfig";
 
 const description =
-  "HUMAN_OS — 用量子生物学、神经科学与筋膜解剖学的语言，翻译东方生命智慧。不玄学，只讲科学。";
+  "HUMAN_BODY — 用量子生物学、神经科学与筋膜解剖学的语言，翻译东方生命智慧。不玄学，只讲科学。";
 
 export default withMermaid(defineConfig({
   extends: teekConfig,
-  title: "HUMAN_OS",
+  title: "HUMAN_BODY",
   description: description,
   cleanUrls: false,
   lastUpdated: true,
@@ -17,11 +17,11 @@ export default withMermaid(defineConfig({
     ["link", { rel: "icon", type: "image/png", href: "/teek-logo-mini.png" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:locale", content: "zh-CN" }],
-    ["meta", { property: "og:title", content: "HUMAN_OS | 重新认识你的身体" }],
-    ["meta", { property: "og:site_name", content: "HUMAN_OS" }],
+    ["meta", { property: "og:title", content: "HUMAN_BODY | 重新认识你的身体" }],
+    ["meta", { property: "og:site_name", content: "HUMAN_BODY" }],
     ["meta", { property: "og:description", content: description }],
     ["meta", { name: "description", content: description }],
-    ["meta", { name: "author", content: "HUMAN_OS" }],
+    ["meta", { name: "author", content: "HUMAN_BODY" }],
     ["meta", { name: "keywords", content: "量子生物学,意识,冥想,筋膜,经络,觉知,人体潜能,东方智慧,神经科学" }],
   ],
   rewrites: {

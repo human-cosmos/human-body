@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "HUMAN_OS"
+  name: "HUMAN_BODY"
   text: "重新认识你的身体"
   tagline: "用量子生物学、神经科学与筋膜解剖学的语言，翻译东方生命智慧。不玄学，只讲科学。"
   actions:
@@ -53,7 +53,7 @@ features:
 
 <div class="video-showcase">
   <h2 class="video-showcase__title">🎬 视频导览</h2>
-  <p class="video-showcase__desc">通过视频快速了解 HUMAN_OS 的核心理念</p>
+  <p class="video-showcase__desc">通过视频快速了解 HUMAN_BODY 的核心理念</p>
   <div class="video-showcase__grid">
     <div class="video-showcase__card" @mouseenter="e => { const v = e.currentTarget.querySelector('video'); v.muted = true; v.play(); }" @mouseleave="e => { const v = e.currentTarget.querySelector('video'); v.pause(); v.currentTime = 0; }">
       <div class="video-showcase__wrapper">

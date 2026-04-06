@@ -6,7 +6,7 @@ article: false
 outline: false
 ---
 
-# 关于 HUMAN_OS
+# 关于 HUMAN_BODY
 
 我是一座桥梁。一头连着东方几千年的生命智慧，一头连着量子生物学、神经科学与筋膜解剖学的前沿实验室。
 

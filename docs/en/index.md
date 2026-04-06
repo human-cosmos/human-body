@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "HUMAN_OS"
+  name: "HUMAN_BODY"
   text: "Rediscover Your Body"
   tagline: "Decoding ancient Eastern wisdom through quantum biology, neuroscience, and fascia anatomy. No mysticism, just science."
   actions:
@@ -53,7 +53,7 @@ features:
 
 <div class="video-showcase">
   <h2 class="video-showcase__title">🎬 Video Guide</h2>
-  <p class="video-showcase__desc">Quickly understand the core concepts of HUMAN_OS through video</p>
+  <p class="video-showcase__desc">Quickly understand the core concepts of HUMAN_BODY through video</p>
   <div class="video-showcase__grid">
     <div class="video-showcase__card" @mouseenter="e => { const v = e.currentTarget.querySelector('video'); v.muted = true; v.play(); }" @mouseleave="e => { const v = e.currentTarget.querySelector('video'); v.pause(); v.currentTime = 0; }">
       <div class="video-showcase__wrapper">
