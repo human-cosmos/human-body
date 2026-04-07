@@ -1,11 +1,7 @@
-# Human Cosmos :dna:
+# Human Cosmos
 
 > Your body holds immense potential, yet it has never been truly awakened. This is a guide written in scientific language.
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Language](https://img.shields.io/badge/Language-中文/English-green.svg)]()
-
----
 
 ## What is This? :mag:
 

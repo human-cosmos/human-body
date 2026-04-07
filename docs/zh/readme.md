@@ -1,11 +1,6 @@
-# 人体宇宙 :dna:
+# 人体宇宙
 
 > 你的身体蕴含着巨大的潜能，只是从未被真正唤醒。这是一本用科学语言写成的唤醒指南。
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Language](https://img.shields.io/badge/Language-中文/English-green.svg)]()
-
----
 
 ## 这是什么 :mag:
 
